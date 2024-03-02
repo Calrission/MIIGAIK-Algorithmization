@@ -1,3 +1,4 @@
+# O(n^2)
 n = int(input())
 data = input().split(" ")
 for i in data:

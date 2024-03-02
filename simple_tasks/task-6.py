@@ -1,3 +1,4 @@
+# O(n)
 data = input().split(" ")
 for i in range(len(data)):
     if (i+1) % 2 != 0:

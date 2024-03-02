@@ -1,3 +1,4 @@
+# O(n)
 data = list(map(int, input().strip().split(" ")))
 max_, current = 1, 1
 for i in range(1, len(data)):

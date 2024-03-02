@@ -1,3 +1,4 @@
+# O(n)
 n = int(input())
 while n != 0:
     new_n = int(input())

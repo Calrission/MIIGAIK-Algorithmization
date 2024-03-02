@@ -1,3 +1,4 @@
+# O(n)
 last = None
 count = 0
 while True:
