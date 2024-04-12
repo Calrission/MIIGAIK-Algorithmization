@@ -10,8 +10,14 @@ using namespace std;
 int Rnd (int, int);
 double Rnd (double, double);
 
-void calcSortBubble(std::vector<int> &, int&);
-void calcSortBubble(std::vector<double>&, int&);
+void calcSortBubble(vector<int>&, int&);
+void calcSortBubble(vector<double>&, int&);
+
+void calcQsort(vector<int>& mas, size_t l, size_t r, int& k);
+void calcQsort(vector<double>& mas, size_t l, size_t r, int& k);
+
+size_t calcBinSearch(vector<int>& mas, int x, int& r);
+size_t calcBinSearch(vector<double>& mas, double x, int& r);
 
 template <typename T, typename Arg>
 void init_array(size_t s, T a, T b, Arg& arg) {

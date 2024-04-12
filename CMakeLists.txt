@@ -5,7 +5,5 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(
     ALG main.cpp
-    quick.cpp
     sort-text.cpp
-    search.cpp
 )
