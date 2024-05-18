@@ -1,16 +1,22 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+
 using namespace std;
- 
-// В ширину
+
+/*
+    В ширину
+    Используемые структуры данных:
+    - Список (в реализации вектора)
+    - Очередь
+*/
 
 void BFS(vector<vector<int>> &myG, int &s, int &fin) {
-    size_t n = myG.size();
+    size_t sizeG = myG.size();
     queue<int> Q;
     Q.push(s);
-    vector<bool> used(n, false);
-    vector<int> P(n);
+    vector<bool> used(sizeG, false);
+    vector<int> P(sizeG);
     used[s] = true;
     P[s] = -1;
     while (!Q.empty()) {
