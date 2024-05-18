@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-18T08:44:45.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="qZsJcAo0zKV8POmoqRq6" version="24.2.5" type="device">
+<mxfile host="Electron" modified="2024-05-18T09:04:33.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="MV4x_F3S-VkGvcmcqVTr" version="24.2.5" type="device">
   <diagram name="Страница — 1" id="pnTk2gX4rgAp5JiaQagt">
-    <mxGraphModel dx="2625" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2333" dy="1700" grid="1" gridSize="32" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
         <mxCell id="0xJNkzR_WOn_rcbIheBu-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xJNkzR_WOn_rcbIheBu-15" target="0xJNkzR_WOn_rcbIheBu-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0xJNkzR_WOn_rcbIheBu-15" value="Декларирование вектора для хранения путя. Инициализация: конечная точка будет -1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-15" value="Декларирование вектора для хранения для каждой вершины предшеств. (пер. P) Инициализация: конечная точка будет -1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="324" y="700" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xJNkzR_WOn_rcbIheBu-17" target="0xJNkzR_WOn_rcbIheBu-19">
@@ -56,6 +56,11 @@
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xJNkzR_WOn_rcbIheBu-17" target="0xJNkzR_WOn_rcbIheBu-52">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-76" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xJNkzR_WOn_rcbIheBu-53">
+          <mxGeometry x="-0.883" relative="1" as="geometry">
+            <mxPoint x="-7" y="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-17" value="Очередь вершин&amp;nbsp;&lt;div&gt;пуста&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="336" y="820" width="156" height="80" as="geometry" />
@@ -143,10 +148,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xJNkzR_WOn_rcbIheBu-48" value="Добавляем вершину в вектор путя&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-48" value="Добавляем вершину в вектор P" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="1850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0xJNkzR_WOn_rcbIheBu-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xJNkzR_WOn_rcbIheBu-52">
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xJNkzR_WOn_rcbIheBu-52" target="0xJNkzR_WOn_rcbIheBu-57">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="1040.0000000000002" as="targetPoint" />
             <Array as="points">
@@ -156,7 +161,7 @@
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-56" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xJNkzR_WOn_rcbIheBu-55">
           <mxGeometry x="-0.6405" relative="1" as="geometry">
-            <mxPoint x="15" y="-10" as="offset" />
+            <mxPoint x="50" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xJNkzR_WOn_rcbIheBu-52" target="0xJNkzR_WOn_rcbIheBu-58">
@@ -182,7 +187,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-57" value="Показ ошибки" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="1305" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xJNkzR_WOn_rcbIheBu-58" target="0xJNkzR_WOn_rcbIheBu-62">
           <mxGeometry relative="1" as="geometry" />
@@ -226,7 +231,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xJNkzR_WOn_rcbIheBu-67" value="Изменяем конечную вершину на смежную из которой пришли с начальной вершины (исп. вектор путя)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-67" value="Изменяем конечную вершину на ее предшеств. (исп. вектор P)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="1410" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xJNkzR_WOn_rcbIheBu-70" target="0xJNkzR_WOn_rcbIheBu-73">
@@ -241,6 +246,9 @@
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-73" value="КОНЕЦ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="1760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-78" value="ОБХОД ГРАФА В ШИРИНУ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="790" y="110" width="741" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
