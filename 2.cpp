@@ -6,6 +6,9 @@ using namespace std;
 
 /*
     В глубину
+    Структуры данных:
+    - Стек
+    - Список (в реализации vector)
 */
 
 int DFS(vector<vector<int>> &myG, int &s, int &u) {
@@ -20,6 +23,7 @@ int DFS(vector<vector<int>> &myG, int &s, int &u) {
         S.pop();
         auto first = myG[v].begin();
         auto last  = myG[v].end();
+
         while (first != last) {
             if (!used[*first]) {
                 S.push(*first);
