@@ -1,0 +1,265 @@
+<mxfile host="Electron" modified="2024-05-30T15:15:40.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="OqtXkvop92K86xnGpwpt" version="24.2.5" type="device">
+  <diagram name="Страница — 1" id="ciChWTH-rYgIJQM9PPAP">
+    <mxGraphModel dx="4327" dy="2550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ebCfutYWAErBakexrj_W-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-1" target="ebCfutYWAErBakexrj_W-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-1" value="СТАРТ" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-2" target="ebCfutYWAErBakexrj_W-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-2" value="Генерация матрицы смежности (пер. G)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-5" target="ebCfutYWAErBakexrj_W-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-5" value="Ввод номера вершины" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-7" target="ebCfutYWAErBakexrj_W-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-7" value="Декларирование вектора (пер. D) размера матрицы смежности и заполненного inf. Помечаем введенную вершину за 0" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="52.5" y="420" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-10" target="ebCfutYWAErBakexrj_W-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-10" value="Декларирование вектора (пер. P) размера матрицы смежности и заполненного 0" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="55" y="560" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-12" target="ebCfutYWAErBakexrj_W-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-12" value="Декларирование вектора (пер. U) размера матрицы смежности и заполненного false" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="55" y="680" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-17" target="ebCfutYWAErBakexrj_W-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-17" value="Декларирование&lt;div&gt;счетчика i = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-19" target="ebCfutYWAErBakexrj_W-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-74" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.7441" y="3" relative="1" as="geometry">
+            <mxPoint x="-11" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-19" value="i &amp;lt; размера&amp;nbsp;&lt;div&gt;матрицы смежности&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="930" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-21" target="ebCfutYWAErBakexrj_W-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-21" value="Вывод пер. D" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.588;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ebCfutYWAErBakexrj_W-19" target="ebCfutYWAErBakexrj_W-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-75" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.7135" y="-1" relative="1" as="geometry">
+            <mxPoint x="14" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-24" target="ebCfutYWAErBakexrj_W-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-24" value="Декларирование&lt;div&gt;cчетчика j = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-25" target="ebCfutYWAErBakexrj_W-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-40" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.8318" relative="1" as="geometry">
+            <mxPoint x="-8" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-25" target="ebCfutYWAErBakexrj_W-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-43" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-42" vertex="1" connectable="0">
+          <mxGeometry x="-0.7327" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-25" value="j &amp;lt; размера&amp;nbsp;&lt;div&gt;матрицы смежности&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1180" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-27" target="ebCfutYWAErBakexrj_W-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-32" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.8074" y="5" relative="1" as="geometry">
+            <mxPoint x="-12" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-27" target="ebCfutYWAErBakexrj_W-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-37" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-34" vertex="1" connectable="0">
+          <mxGeometry x="-0.8249" y="-1" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-27" value="Вершина j не помечена&lt;div&gt;И&lt;/div&gt;&lt;div&gt;(вершина j первая&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;обрабатываемая&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ИЛИ&amp;nbsp;&lt;/div&gt;&lt;div&gt;путь от введенной&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;вершины до j короче)&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1290" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-30" target="ebCfutYWAErBakexrj_W-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-30" value="Принимает j за самую ближ. не помеч. вершину к введенной" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-33" target="ebCfutYWAErBakexrj_W-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-33" value="Инкрементация j" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-41" target="ebCfutYWAErBakexrj_W-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="1345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-45" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-44" vertex="1" connectable="0">
+          <mxGeometry x="-0.9245" y="3" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-41" target="ebCfutYWAErBakexrj_W-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-50" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-49" vertex="1" connectable="0">
+          <mxGeometry x="-0.5501" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-41" value="Ближ. вершина к введенной была&amp;nbsp;&lt;div&gt;найдена&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="1305" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-46" target="ebCfutYWAErBakexrj_W-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-46" value="Помечаем ближ. вершину как исп. (пер. U)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-51" value="D - вектор коротких петей&amp;nbsp;&amp;nbsp;&lt;div&gt;из введенной точки к&amp;nbsp;&lt;/div&gt;&lt;div&gt;любой другой, где индекс - вершина, а значение - минимальный путь&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;spacingTop=0;spacingBottom=30;" parent="1" vertex="1">
+          <mxGeometry x="230" y="260" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-52" value="P - вектор переходов из любых вершин к введенной,&amp;nbsp;&lt;div&gt;где индекс - это вершина,&amp;nbsp;&lt;/div&gt;&lt;div&gt;а значение - это другая вершина через которую можно попасть в веденную&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;spacingTop=0;spacingBottom=30;" parent="1" vertex="1">
+          <mxGeometry x="227.5" y="430" width="342.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-53" value="U - вектор обработанных вершин,&amp;nbsp;&lt;div&gt;где индекс&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;- это вершина, а значение - была ли она обработанна&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;spacingTop=0;spacingBottom=30;" parent="1" vertex="1">
+          <mxGeometry x="230" y="570" width="342.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-54" target="ebCfutYWAErBakexrj_W-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-54" value="Декларирование счетчика z" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-56" target="ebCfutYWAErBakexrj_W-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-64" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-61" vertex="1" connectable="0">
+          <mxGeometry x="-0.9273" y="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-56" target="ebCfutYWAErBakexrj_W-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-56" value="z &amp;lt; размера вектора&amp;nbsp;&lt;div&gt;смежных вершин у ближ.&amp;nbsp;&lt;/div&gt;&lt;div&gt;вершине к веденной&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-37.5" y="1860" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-58" target="ebCfutYWAErBakexrj_W-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-58" value="Получаем z-ый смежный вектор (пер. to) и длину пути к нему (пер. len)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="1990" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-62" target="ebCfutYWAErBakexrj_W-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-67" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-66" vertex="1" connectable="0">
+          <mxGeometry x="-0.74" y="4" relative="1" as="geometry">
+            <mxPoint x="-16" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-62" target="ebCfutYWAErBakexrj_W-71" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="2480" />
+              <mxPoint x="565" y="2480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-77" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ebCfutYWAErBakexrj_W-76" vertex="1" connectable="0">
+          <mxGeometry x="-0.9263" relative="1" as="geometry">
+            <mxPoint x="20" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-62" value="путь до ближ.&amp;nbsp;&lt;div&gt;вершины + len &amp;lt; путь до to&amp;nbsp;&lt;div&gt;из введенной вершины (пер. D)&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="2110" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-65" target="ebCfutYWAErBakexrj_W-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-65" value="Берем путь до ближ.&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;вершины&lt;/span&gt;&amp;nbsp;+ len, как основной путь из введенной вершины в to (пер. D)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="2240" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ebCfutYWAErBakexrj_W-68" target="ebCfutYWAErBakexrj_W-71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-68" value="Сохраняем факт об этом в пер. P у вершины to" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="535" y="2380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-71" target="ebCfutYWAErBakexrj_W-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="2560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-71" value="Инкрементация z" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="535" y="2520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ebCfutYWAErBakexrj_W-78" target="ebCfutYWAErBakexrj_W-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-340" y="1915" />
+              <mxPoint x="-340" y="900" />
+              <mxPoint x="100" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-78" value="Инкрементация i" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="1885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebCfutYWAErBakexrj_W-81" value="КОНЕЦ" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="1040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5T_UZt_IxmhlrpSVlnDz-1" value="Алгоритм Дейкстры" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=64;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="730" y="70" width="800" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

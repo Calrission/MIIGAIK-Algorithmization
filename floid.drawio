@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-28T19:30:07.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="gvidN_K5l7tIZvm6SSTk" version="24.2.5" type="device">
+<mxfile host="Electron" modified="2024-05-28T19:32:11.928Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="rBgOcgsRPFeyhespKMnr" version="24.2.5" type="device">
   <diagram name="Страница — 1" id="IaIiqB7NT-9Ca0OZgut1">
-    <mxGraphModel dx="2868" dy="1768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="775" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,18 +37,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T7R9kQGfX07B7LdkQ6xD-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T7R9kQGfX07B7LdkQ6xD-9" target="T7R9kQGfX07B7LdkQ6xD-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="720" />
+              <mxPoint x="320" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oGEzToL8N5a5DQJlp9U-2" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T7R9kQGfX07B7LdkQ6xD-55">
+          <mxGeometry x="-0.3854" y="-2" relative="1" as="geometry">
+            <mxPoint x="21" y="-8" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="T7R9kQGfX07B7LdkQ6xD-9" value="k &amp;lt; размера&amp;nbsp;&lt;div&gt;матрицы&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="348.5" y="680" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T7R9kQGfX07B7LdkQ6xD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T7R9kQGfX07B7LdkQ6xD-12" target="T7R9kQGfX07B7LdkQ6xD-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="T7R9kQGfX07B7LdkQ6xD-25" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T7R9kQGfX07B7LdkQ6xD-11" vertex="1" connectable="0">
-          <mxGeometry x="-0.4" y="1" relative="1" as="geometry">
-            <mxPoint x="12" y="-1" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="T7R9kQGfX07B7LdkQ6xD-12" value="Инициализация счетчика i = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="563.5" y="790" width="120" height="60" as="geometry" />
@@ -111,6 +116,11 @@
         <mxCell id="T7R9kQGfX07B7LdkQ6xD-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T7R9kQGfX07B7LdkQ6xD-33" target="T7R9kQGfX07B7LdkQ6xD-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8oGEzToL8N5a5DQJlp9U-1" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T7R9kQGfX07B7LdkQ6xD-36">
+          <mxGeometry x="-0.5954" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="T7R9kQGfX07B7LdkQ6xD-33" value="minP[i][k] + minP[k][j] &amp;lt; minP[i][j]" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="688.5" y="1330" width="218.5" height="80" as="geometry" />
         </mxCell>
@@ -161,7 +171,7 @@
         <mxCell id="T7R9kQGfX07B7LdkQ6xD-60" value="Сохраняем этот путь через k как основной" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;flipH=1;verticalAlign=middle;horizontal=1;spacingBottom=20;" parent="1" vertex="1">
           <mxGeometry x="453.5" y="1380" width="230" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="eY24e_9tUdWVGjgPyAdK-1" value="Алгоритм Флойда-Уоршелла" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=64;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eY24e_9tUdWVGjgPyAdK-1" value="Алгоритм Флойда-Уоршелла" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=64;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="810" y="70" width="800" height="160" as="geometry" />
         </mxCell>
       </root>

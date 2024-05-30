@@ -31,6 +31,7 @@ void Dijkstra(vector<vector<pair<int, int>>> &myG, int &s) {
     D[s] = 0;
     for (size_t i = 0; i < n; i++) {
         size_t v = 1000000000;
+        // Поиск ближ. не помеч. вершины к данной
         for (size_t j = 0; j < n; j++)
             if (!U[j] && (v == 1000000000 || D[j] < D[v]))
                 v = j;
