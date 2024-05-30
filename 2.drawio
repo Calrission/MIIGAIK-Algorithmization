@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-19T12:46:00.805Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="zNYk9hZxbiWGnN2HHaEv" version="24.2.5" type="device">
+<mxfile host="Electron" modified="2024-05-30T15:27:57.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Smqb1MjqASJRxTlC869q" version="24.2.5" type="device">
   <diagram name="Страница — 1" id="pnTk2gX4rgAp5JiaQagt">
-    <mxGraphModel dx="1743" dy="2500" grid="1" gridSize="32" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="391" dy="582" grid="1" gridSize="32" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="0xJNkzR_WOn_rcbIheBu-17" value="Стек вершин&amp;nbsp;&lt;div&gt;пустой&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="336" y="820" width="156" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="muBdUHlWdhbO27ATEN9z-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xJNkzR_WOn_rcbIheBu-19" target="muBdUHlWdhbO27ATEN9z-3">
+        <mxCell id="muBdUHlWdhbO27ATEN9z-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0xJNkzR_WOn_rcbIheBu-19" target="muBdUHlWdhbO27ATEN9z-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-19" value="Получение элемента в стеке вершин (пер. S) и удаление его из стека" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -145,7 +145,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-48" value="Количество возможных вариантов прихода в эту смежную вершину = кол-во путей у выбранной вершины + 1 (исп. вектор D)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="174" y="1810" width="172" height="86" as="geometry" />
+          <mxGeometry x="174" y="1836" width="172" height="86" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-73" value="КОНЕЦ" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="512" y="1140" width="120" height="80" as="geometry" />
@@ -153,22 +153,22 @@
         <mxCell id="0xJNkzR_WOn_rcbIheBu-78" value="ОБХОД ГРАФА В ГЛУБИНУ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=56;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="827" y="110" width="741" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="muBdUHlWdhbO27ATEN9z-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="muBdUHlWdhbO27ATEN9z-3" target="0xJNkzR_WOn_rcbIheBu-23">
+        <mxCell id="muBdUHlWdhbO27ATEN9z-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="muBdUHlWdhbO27ATEN9z-3" target="0xJNkzR_WOn_rcbIheBu-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="muBdUHlWdhbO27ATEN9z-3" value="Декларирование счетчика i = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="muBdUHlWdhbO27ATEN9z-3" value="Декларирование счетчика i = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="muBdUHlWdhbO27ATEN9z-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="muBdUHlWdhbO27ATEN9z-6" target="muBdUHlWdhbO27ATEN9z-7">
+        <mxCell id="muBdUHlWdhbO27ATEN9z-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="muBdUHlWdhbO27ATEN9z-6" target="muBdUHlWdhbO27ATEN9z-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="muBdUHlWdhbO27ATEN9z-6" value="Получение кол-во возможных путей до конечной точки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="muBdUHlWdhbO27ATEN9z-6" value="Получение кол-во возможных путей до конечной точки" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="512" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="muBdUHlWdhbO27ATEN9z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="muBdUHlWdhbO27ATEN9z-7" target="0xJNkzR_WOn_rcbIheBu-73">
+        <mxCell id="muBdUHlWdhbO27ATEN9z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="muBdUHlWdhbO27ATEN9z-7" target="0xJNkzR_WOn_rcbIheBu-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="muBdUHlWdhbO27ATEN9z-7" value="Вывод кол-ва путей" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="muBdUHlWdhbO27ATEN9z-7" value="Вывод кол-ва путей" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="512" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
