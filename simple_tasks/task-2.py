@@ -1,16 +1,16 @@
-# O(n)
-n = int(input())
-N = 1  # кол-во ввода
-Y = 0  # кол-во операций
-while n != 0:
-    Y += 1
-    new_n = int(input())
-    N += 1
-    Y += 1
-    if new_n == 0:
+sum_ = 0
+n = 0
+N = 1  # выделение памяти sum_
+while True:
+    n += 1
+    num = int(input())
+    N += 2  # int, num == 0
+    if num == 0:
         break
-    Y += 1
-    n += new_n
+    sum_ += num
+    N += 1  # sum_ += num
 
-print(n)
-print(f"\nРасчет сложности: {N=} {Y=}")
+print(num)
+print(f"\nРасчет сложности: {n=} {N=}")
+
+# O(3*n) => O(n)
