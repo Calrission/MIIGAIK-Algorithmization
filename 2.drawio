@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-30T15:27:57.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Smqb1MjqASJRxTlC869q" version="24.2.5" type="device">
+<mxfile host="Electron" modified="2024-06-01T08:26:48.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="r0uKS1l_Fh3jmUuUn9gm" version="24.2.5" type="device">
   <diagram name="Страница — 1" id="pnTk2gX4rgAp5JiaQagt">
-    <mxGraphModel dx="391" dy="582" grid="1" gridSize="32" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="695" grid="1" gridSize="32" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="0xJNkzR_WOn_rcbIheBu-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0xJNkzR_WOn_rcbIheBu-11" target="0xJNkzR_WOn_rcbIheBu-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0xJNkzR_WOn_rcbIheBu-11" value="Декларирование стека сост&lt;span style=&quot;background-color: initial;&quot;&gt;. из вершин и инициализация его стартовой вершиной&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-11" value="Декларирование стека (пер. S) сост&lt;span style=&quot;background-color: initial;&quot;&gt;. из вершин и инициализация его стартовой вершиной&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="324" y="450" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0xJNkzR_WOn_rcbIheBu-13" target="0xJNkzR_WOn_rcbIheBu-15" edge="1">
@@ -70,7 +70,7 @@
         <mxCell id="muBdUHlWdhbO27ATEN9z-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0xJNkzR_WOn_rcbIheBu-19" target="muBdUHlWdhbO27ATEN9z-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0xJNkzR_WOn_rcbIheBu-19" value="Получение элемента в стеке вершин (пер. S) и удаление его из стека" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-19" value="Получение вершины из стека (пер. S) и удаление его из стека" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="0xJNkzR_WOn_rcbIheBu-23" target="0xJNkzR_WOn_rcbIheBu-17" edge="1">
@@ -104,7 +104,7 @@
         <mxCell id="0xJNkzR_WOn_rcbIheBu-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0xJNkzR_WOn_rcbIheBu-30" target="0xJNkzR_WOn_rcbIheBu-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0xJNkzR_WOn_rcbIheBu-30" value="Получение i-ой смежной вершины к выбранной вершине" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-30" value="Получение i-ой смежной вершины к выбранной вершине v" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0xJNkzR_WOn_rcbIheBu-39" target="0xJNkzR_WOn_rcbIheBu-42" edge="1">
@@ -121,7 +121,7 @@
             <mxPoint x="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xJNkzR_WOn_rcbIheBu-42" value="Вершина не&lt;div&gt;использовалась ранее (еще нету в использованных)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-42" value="Вершина&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;не&lt;/span&gt;&lt;div&gt;&lt;div&gt;использовалась ранее (еще нету в использованных)&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="145.5" y="1480" width="229" height="100" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0xJNkzR_WOn_rcbIheBu-44" target="0xJNkzR_WOn_rcbIheBu-46" edge="1">
@@ -144,7 +144,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xJNkzR_WOn_rcbIheBu-48" value="Количество возможных вариантов прихода в эту смежную вершину = кол-во путей у выбранной вершины + 1 (исп. вектор D)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0xJNkzR_WOn_rcbIheBu-48" value="Количество возможных вариантов прихода в эту смежную вершину = кол-во путей у выбранной вершины v + 1 (исп. вектор D)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="174" y="1836" width="172" height="86" as="geometry" />
         </mxCell>
         <mxCell id="0xJNkzR_WOn_rcbIheBu-73" value="КОНЕЦ" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -168,7 +168,7 @@
         <mxCell id="muBdUHlWdhbO27ATEN9z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="muBdUHlWdhbO27ATEN9z-7" target="0xJNkzR_WOn_rcbIheBu-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="muBdUHlWdhbO27ATEN9z-7" value="Вывод кол-ва путей" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="muBdUHlWdhbO27ATEN9z-7" value="Вывод&amp;nbsp;&lt;div&gt;кратчейшего&amp;nbsp;&lt;/div&gt;&lt;div&gt;пути (пер. D)&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="512" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
