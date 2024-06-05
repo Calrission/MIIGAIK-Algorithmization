@@ -68,13 +68,16 @@ void calcQsort(vector<double> &mas, size_t l, size_t r, int &k) {
     do {
         k++;
         while (mas[l] < M) l++;
-        while (mas[r] > M) r--;
+        while (mas[r] > M && r != 0)
+            r--;
         if (l <= r) {
             double buff = mas[l];
-            mas[l]   = mas[r];
-            mas[r]   = buff;
+            mas[l] = mas[r];
+            mas[r] = buff;
             l++;
-            r--;
+            if (r != 0){
+                r--;
+            }
         }
     } while (l < r);
     if (L < r) calcQsort(mas, L, r, k);

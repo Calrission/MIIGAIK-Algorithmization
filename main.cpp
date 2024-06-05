@@ -7,7 +7,6 @@ using namespace std;
 using namespace chrono;
 
 int main() {
-    system("chcp 65001");
     vector<int> int_array;
     vector<double> double_array;
     size_t length_array;
@@ -42,7 +41,7 @@ int main() {
         if (is_bubble_sort) {
             calcSortBubble(double_array, count_iterations);
         }else{
-            calcQsort(double_array, 0, int_array.size()-1, count_iterations);
+            calcQsort(double_array, 0, double_array.size()-1, count_iterations);
         }
         cout << "Количество итераций: " << count_iterations << endl;
         print_array(is_double_array, double_array);
