@@ -55,7 +55,9 @@ void calcQsort(vector<int> &mas, size_t l, size_t r, int &k) {
             mas[l]   = mas[r];
             mas[r]   = buff;
             l++;
-            r--;
+            if (r != 0){
+                r--;
+            }
         }
     } while (l < r);
     if (L < r) calcQsort(mas, L, r, k);
